@@ -38,13 +38,13 @@ properties:
     vault: AXON_ADMIN_PASSWORD
   AXON_SERVER_TOKEN:
     vault: AXON_SERVER_TOKEN
-  AXONIQ_LICENSE: /axonserver/config/axonserver-license.key
+  AXONIQ_LICENSE: /axonserver/config/axoniq.license
   PRIVATE_KEY_FILE:
     vault: PRIVATE_KEY_FILE
   CERT_FILE:
     vault: CERT_FILE     
   AXON_ENDPOINT: "http://localhost:8024"
-  AXONIQ_AXONSERVER_STANDALONE: "false"
+  #AXONIQ_AXONSERVER_STANDALONE: "false"
   REPLICATION: 1
   revision: 3
   
