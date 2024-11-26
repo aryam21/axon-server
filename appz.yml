@@ -17,6 +17,7 @@ deploy:
     - 8024
     - 8124
     - 8224
+    - 8000
 volumes:
   - claim: axon-home
     mount: /appz/home
